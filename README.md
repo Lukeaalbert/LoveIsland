@@ -1,38 +1,45 @@
-# Love Island
+# David Attenborough narrates your life. 
 
-## Have you ever wondered what it would be like to star in "Love Island?" Well now you (kind of) can!
+https://twitter.com/charliebholtz/status/1724815159590293764
 
-This project was inspired by and based on Charlie Holtz's David Attenborough narration project.
-This programs capture images via your personal computer camera, and utilizes Open AI APIs to
-generate narration. Next, Eleven Lab's cloned voice text-to-speach API narrates you in real time with the voice of
-the famous UK Love Island host, Iain Stirling.
+## Want to make your own AI app?
+Check out [Replicate](https://replicate.com). We make it easy to run machine learning models with an API.
 
-### Walkthrough 
-First, clone this repo, setup and activate a virtualenv, and install dependencies.
+## Setup
 
-```python
+Clone this repo, and setup and activate a virtualenv:
+
+```bash
 python3 -m pip install virtualenv
 python3 -m virtualenv venv
 source venv/bin/activate
-pip install -r requirements.txt
 ```
 
-Next, set OpenAI and Eleven Labs tokens.
+Then, install the dependencies:
+`pip install -r requirements.txt`
 
-```python
+Make a [Replicate](https://replicate.com), [OpenAI](https://beta.openai.com/), and [ElevenLabs](https://elevenlabs.io) account and set your tokens:
+
+```
 export OPENAI_API_KEY=<token>
 export ELEVENLABS_API_KEY=<eleven-token>
+```
+
+Make a new voice in Eleven and get the voice id of that voice using their [get voices](https://elevenlabs.io/docs/api-reference/voices) API, or by clicking the flask icon next to the voice in the VoiceLab tab.
+
+```
 export ELEVENLABS_VOICE_ID=<voice-id>
 ```
 
-Finally, run it! On one terminal:
+## Run it!
 
-```python
+In on terminal, run the webcam capture:
+```bash
 python capture.py
 ```
+In another terminal, run the narrator:
 
-On another terminal:
-
-```python
+```bash
 python narrator.py
 ```
+
