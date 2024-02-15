@@ -11,9 +11,9 @@ the famous UK Love Island host, Iain Stirling.
 #### Walkthrough 
 First, clone this repo, setup and activate a virtualenv, and install dependencies.
 
-`python3 -m pip install virtualenv
-python3 -m virtualenv venv
-source venv/bin/activate
+`python3 -m pip install virtualenv  <br />
+python3 -m virtualenv venv  <br />
+source venv/bin/activate  <br />
 pip install -r requirements.txt`
 
 Next, set OpenAI and Eleven Labs tokens.
