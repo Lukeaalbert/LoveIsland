@@ -1,7 +1,6 @@
 # Love Island
 
-## Have you ever wondered what it would be like to star in "Love Island?"
-### Well now you (kind of) can!
+## Have you ever wondered what it would be like to star in "Love Island?" Well now you (kind of) can!
 
 This project was inspired by and based on Charlie Holtz's (@cbn123) David Attenborough narration project.
 This programs capture images via your personal computer camera, and utilizes Open AI APIs to
