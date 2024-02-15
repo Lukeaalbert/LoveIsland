@@ -2,9 +2,9 @@
 
 ## Have you ever wondered what it would be like to star in "Love Island?" Well now you (kind of) can!
 
-This project was inspired by and based on Charlie Holtz's (@cbn123) David Attenborough narration project.
+This project was inspired by and based on Charlie Holtz's David Attenborough narration project.
 This programs capture images via your personal computer camera, and utilizes Open AI APIs to
-generate narration. Next Eleven Labs cloned voice text-to-speach API narrates you in real time with the voice of
+generate narration. Next, Eleven Lab's cloned voice text-to-speach API narrates you in real time with the voice of
 the famous UK Love Island host, Iain Stirling.
 
 ### Walkthrough 
