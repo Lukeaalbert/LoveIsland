@@ -20,14 +20,20 @@ pip install -r requirements.txt
 
 Next, set OpenAI and Eleven Labs tokens.
 
-`export OPENAI_API_KEY=<token>
+```python
+export OPENAI_API_KEY=<token>
 export ELEVENLABS_API_KEY=<eleven-token>
-export ELEVENLABS_VOICE_ID=<voice-id>`
+export ELEVENLABS_VOICE_ID=<voice-id>
+```
 
 Finally, run it! On one terminal:
 
-`python capture.py`
+```python
+python capture.py
+```
 
 On another terminal:
 
-`python narrator.py`
+```python
+python narrator.py
+```
