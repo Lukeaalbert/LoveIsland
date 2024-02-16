@@ -1,10 +1,11 @@
 # Love Island Narration
 
-## Have you ever wanted to be on the reality TV show "Love Island?" Well now you (kind of) can with this rather useless project.
+## Have you ever wanted to be on the reality TV show, "Love Island?" Well now you (kind of) can with this rather useless project.
 
 This project was inspired by and based on Charlie Holtz's David Attenborough project.
 This project uses Open AI's APIs to generate Love Island narration text for images that are captured by
 your computer's camera. It then audibly narrates yourself in real time with ElevenLab's voice cloning, text-to-speech API.
+The voice I cloned is based on the famous Iain Stirling ;).
 
 ### Setup
 
